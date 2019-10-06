@@ -1,0 +1,101 @@
+.header {
+    height: 95vh;
+    /* todo: linear-gradient in safari and IE
+       Safari check https://webkit.org/blog/1424/css3-gradients/ 
+    */
+    background-image: url(../img/MadScientist.jpeg), -webkit-linear-gradient(top right, red, blue);
+    background-image: linear-gradient(
+        to left bottom,
+        rgba(139, 117, 238, 0.2),
+        rgb(9, 42, 228, 0.8)),
+    url(../img/MadScientist.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90vh);
+}
+
+.logo-box {
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    color: #ffffff;
+
+    backface-visibility: hidden;
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+
+    animation-name: MoveInDown;
+    animation-duration: 3s;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 1.1rem;
+    width: 36.4rem;
+
+    animation-name: MoveInLeft;
+    animation-duration: 3s;
+}
+
+@keyframes MoveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-60%);
+    }
+
+    60% {
+        transform: translateX(0);
+    }
+
+    80% {
+        transform: rotateX(180deg) translateY(40%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes MoveInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+
+    60% {
+        transform: translateY(20%);
+    }
+
+    80% {
+        transform: translateY(-20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
