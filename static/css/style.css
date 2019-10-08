@@ -25,9 +25,9 @@ Table OF Contents
 10 > Pricing
 11 > Testimonial
 12 > Team
-13 > Blog
-14 > Blog post
-15 > Blog sidebar
+13 > news.news
+14 > news.news post
+15 > news.news sidebar
 16 > Contact
 17 > Footer
 18 > Responsive
@@ -1124,58 +1124,58 @@ header {
 
 
 /*------------------------------------*\
-	Blog
+	News
 \*------------------------------------*/
 
-.blog {
+.news {
     background-color: #FFF;
     margin: 15px 0px;
 }
 
-.blog .blog-content {
+.news .news-content {
     padding: 20px 20px 40px;
 }
 
-.blog .blog-meta {
+.news .news-meta {
     margin-bottom: 20px;
 }
 
-.blog .blog-meta li {
+.news .news-meta li {
     display: inline-block;
     font-size: 14px;
     color: #10161A;
     margin-right: 10px;
 }
 
-.blog .blog-meta li i {
+.news .news-meta li i {
     color: #6195FF;
     margin-right: 5px;
 }
 
 /*------------------------------------*\
-	Blog post
+	news.news post
 \*------------------------------------*/
 
-#main .blog .blog-content {
+#main .news .news-content {
   padding: 20px 0px 0px;
 }
 
-#main .blog {
+#main .news {
   margin-top: 0px;
 }
 
-/* -- blog tags -- */
+/* -- news.news tags -- */
 
-.blog-tags {
+.news-tags {
     margin: 40px 0px;
 }
 
-.blog-tags h5 {
+.news-tags h5 {
     margin-bottom: 0;
     display: inline-block;
 }
 
-.blog-tags a {
+.news-tags a {
     display: inline-block;
     padding: 6px 13px;
     font-size: 14px;
@@ -1184,53 +1184,53 @@ header {
     color: #10161A;
 }
 
-.blog-tags a:hover {
+.news-tags a:hover {
   color: #FFF;
   background-color: #6195FF;
 }
 
-.blog-tags a i {
+.news-tags a i {
     margin-right: 3px;
     color: #6195FF;
 }
 
-.blog-tags a:hover i {
+.news-tags a:hover i {
   color: #FFF;
 }
 
 
-/* -- blog author -- */
+/* -- news.news author -- */
 
-.blog-author {
+.news-author {
     margin: 40px 0px;
 }
 
-.blog-author .media .media-left {
+.news-author .media .media-left {
     padding-right: 20px;
 }
 
-.blog-author .media {
+.news-author .media {
     padding: 20px;
     border: 1px solid #EEE;
 }
 
-.blog-author .media .media-heading {
+.news-author .media .media-heading {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #EEE;
 }
 
-.blog-author .media .media-heading h3 {
+.news-author .media .media-heading h3 {
     display: inline-block;
     margin: 0;
     text-transform: uppercase;
 }
 
-.blog-author .media .media-heading .author-social {
+.news-author .media .media-heading .author-social {
   float: right;
 }
 
-.blog-author .author-social a {
+.news-author .author-social a {
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -1242,13 +1242,13 @@ header {
     background-color: #6195FF;
 }
 
-/* -- blog comments -- */
+/* -- news.news comments -- */
 
-.blog-comments {
+.news-comments {
     margin: 40px 0px;
 }
 
-.blog-comments .media {
+.news-comments .media {
     padding: 20px;
     background-color: #FFF;
     border-top: 1px solid #EEE;
@@ -1258,31 +1258,31 @@ header {
     margin-top: 0px;
 }
 
-.blog-comments .media:first-child {
+.news-comments .media:first-child {
     border-bottom: 0px;
 }
 
-.blog-comments .media:last-child {
+.news-comments .media:last-child {
     border-bottom: 1px solid #EEE;
 }
 
-.blog-comments .media .media-left {
+.news-comments .media .media-left {
   padding-right: 20px;
 }
 
-.blog-comments .media .media-body .media-heading {
+.news-comments .media .media-body .media-heading {
     text-transform: uppercase;
     margin-bottom:10px;
 }
 
-.blog-comments .media .media-body .media-heading .time {
+.news-comments .media .media-body .media-heading .time {
     font-size: 12px;
     margin-left: 20px;
     font-weight: 400;
     color: #868F9B;
 }
 
-.blog-comments .media .media-body .media-heading .reply {
+.news-comments .media .media-body .media-heading .reply {
     float: right;
     margin: 0;
     font-size: 12px;
@@ -1290,20 +1290,20 @@ header {
     font-weight: 400;
 }
 
-.blog-comments .media.author {
+.news-comments .media.author {
     background-color: #F4F4F4;
     border-color: #6195FF;
     border-bottom: 1px solid #6195FF;
 }
-.blog-comments .media.author>.media-body>.media-heading {
+.news-comments .media.author>.media-body>.media-heading {
     color: #6195FF;
 }
 
-.blog-comments .media.author + .media {
+.news-comments .media.author + .media {
     border-top: 0px;
 }
 
-/* blog reply form */
+/* news.news reply form */
 
 .reply-form {
     margin: 40px 0px;
@@ -1324,7 +1324,7 @@ header {
 
 
 /*------------------------------------*\
-	Blog sidebar
+	news.news sidebar
 \*------------------------------------*/
 
 #aside .widget {
@@ -1419,11 +1419,11 @@ header {
     color: #6195FF;
 }
 
-.widget-post .blog-meta {
+.widget-post .news-meta {
     display: inline-block;
 }
 
-.widget-post .blog-meta li {
+.widget-post .news-meta li {
     display: inline-block;
     margin-right: 5px;
     color: #6195FF;
@@ -1575,23 +1575,23 @@ header {
 
 
 
-  .blog-author .media .media-left {
+  .news-author .media .media-left {
       display: block;
       padding-right: 0;
       margin-bottom: 20px;
   }
-  .blog-author .media {
+  .news-author .media {
       text-align: center;
   }
-  .blog-author .media .media-heading .author-social {
+  .news-author .media .media-heading .author-social {
       margin-top: 10px;
       float: none;
   }
-  .blog-author .media .media-left img {
+  .news-author .media .media-left img {
       margin: auto;
   }
 
-  .blog-comments .media .media {
+  .news-comments .media .media {
       margin:0px -15px;
   }
 }
