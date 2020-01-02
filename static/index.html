@@ -37,7 +37,8 @@
 
 	<script>
 	  function wordCount(str) {
-		return str.split(" ").length;
+		var matches = str.match(/[\u00ff-\uffff]|\S+/g);
+    	return matches ? matches.length : 0;
 	  }
 	  function validateForm() {
 	    var x = document.forms["contact-form"]["name"].value.trim();
@@ -144,7 +145,7 @@
 							<!--
 								<a class="white-btn" href="./pdf/MICROPLASTICS_ME_ANNA_DU_EXCERPT_2-20-19.PDF">Excerpt</a>
 							-->
-							<a class="main-btn" href="https://www.deepplastics.org">Deep Plastics Initiative</a>
+							<a class="main-btn" href="https://deepplastics.org" target="_blank">Deep Plastics Initiative</a>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -949,7 +950,7 @@
 				</div>
 				<!-- /contact -->
 
-				<!-- contact form -->
+				<!-- contact form 
 				<div class="col-md-8 col-md-offset-2">
 					<form name="contact-form" class="contact-form" action="https://vbbk07ea08.execute-api.us-east-1.amazonaws.com/5/contact-me"  method="POST" onsubmit="return validateForm()">
 						<input type="text" class="input" placeholder="Name" name="name">
@@ -959,9 +960,9 @@
 						<button class="main-btn">Send message</button>
 					</form>
 				</div>
-				<!-- /contact form -->
+				 /contact form -->
 
-				<!-- contact form 
+				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
 					<form class="contact-form" action="https://formspree.io/all@annadu.org"  method="POST">
 						<input type="text" class="input" placeholder="Name" name="name">
@@ -971,7 +972,7 @@
 						<button class="main-btn">Send message</button>
 					</form>
 				</div>
-				 /contact form -->
+				<!-- /contact form -->
 
 			</div>
 			<!-- /Row -->
