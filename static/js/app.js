@@ -1,3 +1,4 @@
+// const { default: Vue } = require("vue")
 
 const NewsApp = {
     data() {
@@ -182,5 +183,90 @@ const NewsApp = {
         }
     }
 }
+Vue.createApp(NewsApp).mount('#news');
 
-Vue.createApp(NewsApp).mount('#news')
+const VideosApp = {
+    data() {
+        return {
+            videos: [
+                { video_title: "Operation Awesome Season 1",
+                  video_url: "https://youtu.be/ORjygnCdPnk-s",
+                  video_img: "https://img.youtube.com/vi/ORjygnCdPnk/0.jpg"
+                },
+                { video_title: "Operation Awesome Season 1",
+                  video_url: "https://youtu.be/kJxjXhu3kp4-s",
+                  video_img: "https://img.youtube.com/vi/kJxjXhu3kp4/0.jpg"
+                },
+                { video_title: "Operation Awesome Season 1",
+                  video_url: "https://youtu.be/QmDqB2N0M-8-s",
+                  video_img: "https://img.youtube.com/vi/QmDqB2N0M-8/0.jpg"
+                },
+                { video_title: "What are Ocean Microplastics?",
+                  video_url: "https://youtu.be/YuTuHKGV4-s",
+                  video_img: "https://img.youtube.com/vi/YuTuHKGV4-s/0.jpg"
+                },
+                { video_title: "Chicken Surprise!",
+                  video_url: "https://youtu.be/6IjhL0WSNpI",
+                  video_img: "https://img.youtube.com/vi/6IjhL0WSNpI/0.jpg"
+                },
+                { video_title: "Makin' Chicks With Anna!",
+                  video_url: "https://youtu.be/QWu8Oza5E_g",
+                  video_img: "https://img.youtube.com/vi/QWu8Oza5E_g/0.jpg"
+                },
+                { video_title: "Anna updates her book",
+                  video_url: "https://images-na.ssl-images-amazon.com/images/I/E1yK2kBru1S.mp4",
+                  video_img: "img/Anna_update.jpg"
+                },
+                { video_title: "Watch Anna talk about her ROV",
+                  video_url: "https://www.amazon.com/vdp/164eeefed67542c4a974983f08215bb4?product=1943431507&ref=cm_sw_em_r_ib_dt_nZiKzkpFUhOV3",
+                  video_img: "https://m.media-amazon.com/images/I/5136w9PX7kL.jpg"
+                },
+                { video_title: "The big problems with microplastics",
+                  video_url: "https://www.amazon.com/vdp/29fd430f3eb84bb595977b180301382d?product=1943431507&ref=cm_sw_em_r_ib_dt_nZiKzkpFUhOV3",
+                  video_img: "https://m.media-amazon.com/images/I/619tJPs4SUL.jpg"
+                },
+                { video_title: "working with publisher, Tumblehome, Inc",
+                  video_url: "https://www.amazon.com/vdp/39867330b35642f2b1c4b82bfdfe74d8?product=1943431507&ref=cm_sw_em_r_ib_dt_nZiKzkpFUhOV3",
+                  video_img: "https://m.media-amazon.com/images/I/61oOr9sb+gL.jpg"
+                },
+                { video_title: "Anna Du talks about science fairs",
+                  video_url: "https://www.amazon.com/vdp/1910d4bee1094a5a83764966c84483eb?product=1943431507&ref=cm_sw_em_r_ib_dt_nZiKzkpFUhOV3",
+                  video_img: "https://m.media-amazon.com/images/I/617d2806mKL.jpg"
+                },
+                { video_title: "Unipetrol (Czech) interview",
+                  video_url: "https://youtu.be/X8RRXikiEgg",
+                  video_img: "https://img.youtube.com/vi/X8RRXikiEgg/0.jpg"
+                },
+                { video_title: "Worldskill Conferences panelist",
+                  video_url: "https://youtu.be/npKZCrtol0Y",
+                  video_img: "https://img.youtube.com/vi/npKZCrtol0Y/0.jpg"
+                },
+                { video_title: "Kelly Clarkson Show",
+                  video_url: "https://youtu.be/44PGjrwWosQ",
+                  video_img: "https://img.youtube.com/vi/44PGjrwWosQ/0.jpg"
+                },
+                { video_title: "60 Seconds Documentary",
+                  video_url: "https://youtu.be/BWGBc53v98E",
+                  video_img: "https://img.youtube.com/vi/BWGBc53v98E/0.jpg"
+                },
+                { video_title: "Designer Squad",
+                  video_url: "https://youtu.be/0t759r1V90Y",
+                  video_img: "https://img.youtube.com/vi/0t759r1V90Y/0.jpg"
+                },
+                { video_title: "KickStarter",
+                  video_url: "http://annadu.org/nas/kickstarter.mp4",
+                  video_img: "img/kickstarter_0.jpg"
+                },
+                { video_title: "Gloria Barron Prize for Young Heroes",
+                  video_url: "https://youtu.be/9C-fuPHvR_w",
+                  video_img: "https://img.youtube.com/vi/9C-fuPHvR_w/0.jpg"
+                },
+                { video_title: "3M Young Scientist Challenge Final",
+                  video_url: "https://youtu.be/jgDqgPRCVjc",
+                  video_img: "https://img.youtube.com/vi/jgDqgPRCVjc/0.jpg"
+                },
+            ]
+        }
+    }
+}
+Vue.createApp(VideosApp).mount('#videos')
