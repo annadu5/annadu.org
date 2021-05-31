@@ -1,0 +1,186 @@
+
+const NewsApp = {
+    data() {
+        return {
+            items: [
+                {news_img: "img/MissionMagazineCover.gif",
+                 news_source: "Mission Magazine",
+                 news_date: "May 27th, 2021",
+                 news_head: "Youth Series",
+                 news_content: "Anna was listed in Mission Magazine's youth series",
+                 news_more: "img/MissionMagazine-YouthSeries-AnnaDu.jpg"
+                },
+                {news_img: "img/isef2021.jpg",
+                 news_source: "ISEF",
+                 news_date: "May 20th, 2021",
+                 news_head: "Regeneron ISEF",
+                 news_content: "Anna won the 3rd place in Regeneron ISEF 2021",
+                 news_more: "https://www.societyforscience.org/press-release/2021-regeneron-isef-grand-awards/"
+                },
+                {news_img: "img/MSEF2021.png",
+                 news_source: "MSEF",
+                 news_date: "May 4th, 2021",
+                 news_head: "Massachusett Science Engineering Fair",
+                 news_content: "Anna won the Sanofi Genzyme award – the top prize. As a freshman, Anna is the youngest person to receive this distinction",
+                 news_more: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf"
+                },
+                {news_img: "img/RegionIVFair2021.png",
+                 news_source: "Region IV Science Fair",
+                 news_date: "Mar 6th, 2021",
+                 news_head: "Region IV Science Fair",
+                 news_content: "Anna won First Place in Massachusetts Region IV Science Fair, and qualified for ISEF 2021",
+                 news_more: "https://sites.google.com/site/regionivscifair/winners/2021-winners"
+                },
+                {news_img: "https://img.youtube.com/vi/ORjygnCdPnk/0.jpg",
+                 news_source: "BYUTV",
+                 news_date: "Summer, 2021",
+                 news_head: "Operation Awesome",
+                 news_content: "",
+                 news_more: "https://www.prnewswire.com/news-releases/byutv-winter-premieres-include-operation-awesome-debut-301197957.html"
+                },
+                {news_img: "img/20_under_20_cover.png",
+                 news_source: "Diversity In Action",
+                 news_date: "Summer, 2020",
+                 news_head: "20 Under 20 Young Innovators",
+                 news_content: "",
+                 news_more: "https://mydigitalpublication.com/publication/?m=46265&i=663138&p=38"
+                },
+                {news_img: "img/Stem-Panel-FB.jpg",
+                 news_source: "Barron Prize",
+                 news_date: "July 28, 2020",
+                 news_head: "Young Heroes Summit 2020",
+                 news_content: "On July 28 at 1pm ET, the Gloria Barron Prize for Young Heroes presents a virtual Young Heroes Summit that brings together past winners ...",
+                 news_more: "https://barronprize.org/yhs/"
+                },
+                {news_img: "https://i.vimeocdn.com/video/874517927.webp",
+                 news_source: "Water World",
+                 news_date: "April 6, 2020",
+                 news_head: "The Drop: Young Hero Spreads Awareness of Microplastics Pollution",
+                 news_content: "An extraordinary eighth grader has made it her mission ...",
+                 news_more: "https://www.waterworld.com/home/video/14173450/the-drop-young-hero-spreads-awareness-of-microplastic-pollution"
+                },
+                {news_img: "./img/WeDay.png",
+                 news_source: "We Day",
+                 news_date: "Feburary, 2020",
+                 news_head: "Anna has been selected to be featured in the WE DAY BROADCAST of 2020!",
+                 news_content: "",
+                 news_more: ""
+                },
+                {news_img: "./img/MnMCover.jpg",
+                 news_source: "",
+                 news_date: "Feb 1, 2020",
+                 news_head: "",
+                 news_content: "",
+                 news_more: "https://www.amazon.com/Microplastics-Me-Anna-Du/dp/1943431507"
+                },
+                {news_img: "img/AnnaAtBroadcomMaster2019.jpg",
+                 news_source: "Broadcom Masters",
+                 news_date: "September 18, 2019",
+                 news_head: "Top 30 Finalist of 2019 Broadcom Master! Again!",
+                 news_content: "Investigating a Machine Learning Based ROV to Identify Aggregation of Marine Microplastics...",
+                 news_more: "https://student.societyforscience.org/broadcom-masters-2019-finalists#Du"
+                },
+                {news_img: "https://barronprize.org/wp-content/uploads/Anna-Headshot.jpg",
+                 news_source: "Gloria Barron Prize",
+                 news_date: "September 16, 2019",
+                 news_head: "Gloria Barron Prize for Young Heros",
+                 news_content: "...Anna invented a Remotely Operated Vehicle (ROV) that detects microplastics on the ocean floor. She has also created the Deep Plastics Initiative...",
+                 news_more: "https://barronprize.org/meet-the-winners/2019-winners/"
+                },
+                {news_img: "https://img.youtube.com/vi/npKZCrtol0Y/0.jpg",
+                 news_source: "Worldskills Conference",
+                 news_date: "August 23, 2019",
+                 news_head: "Keynote Speaker at 2019 Worldskills Conference",
+                 news_content: "Our planet in 2050: young people's aspirations for an aware and responsible society",
+                 news_more: "https://worldskillsconference.com/2019/sessions/id/94/"
+                },
+                {news_img: "https://img.youtube.com/vi/X8RRXikiEgg/0.jpg",
+                 news_source: "Technet Czech",
+                 news_date: "May 22, 2019",
+                 news_head: "Navrhla robota a trénuje senzory. Třináctiletá programátorka se AI nebojí",
+                 news_content: "...To jsou projekty, na kterých ve volném čase pracuje Anna Du...",
+                 news_more: "https://www.idnes.cz/technet/technika/anna-du-robot-programovani-python-umela-inteligence.A190521_135705_tec_technika_pka"
+                },
+                {news_img: "img/Czech_Innovation_Week_Keynote_Speaker.jpeg",
+                 news_source: "Czech Innovation Week",
+                 news_date: "May 22, 2019",
+                 news_head: "keynote speaker at Czech Innovation Week 2019",
+                 news_content: "Anna Du is the keynote speaker at Czech Innovation Week 2019",
+                 news_more: "https://www.czechleaders.com/photogalleries/innovation-week-2019"
+                },
+                {news_img: "./img/AnnaDu2019MSEFGrandPrize.jpg",
+                 news_source: "",
+                 news_date: "May 11, 2019",
+                 news_head: "Grand Prize of 2019 Massachusetts Science Fair",
+                 news_content: "",
+                 news_more: "https://scifair.com/wp-content/uploads/2019/05/MS-WINNERS-2019.pdf"
+                },
+                {news_img: "img/LeadLikeGirl_Keynote_Speaker.jpeg",
+                 news_source: "LeadLikeGirl",
+                 news_date: "April, 2019",
+                 news_head: "Keynote Speaker at LeadLikeGirl Conference",
+                 news_content: "Anna was selected as Keynote speaker at LeadLikeGirl Conference ...",
+                 news_more: "https://www.stuartschool.org/academics/leadlikeagirl-conference/2019-speakers"
+                },
+                {news_img: "https://mahb.stanford.edu/wp-content/uploads/2018/08/QAphoto.jpg",
+                 news_source: "Stanford MAHB",
+                 news_date: "Dec 27, 2018",
+                 news_head: "Saving Our Oceans is My Planetary Duty: A MAHB Dialogue with 12-year-old Emerging Scientist",
+                 news_content: "Anna Du has been named one of the top ten students in the US, by 3M’s America’s Young Scientist Challenge, as well as being selected students... 	",
+                 news_more: "https://mahb.stanford.edu/news/saving-oceans-planetary-duty-mahb-dialogue-12-year-old-emerging-scientist-anna-du/"
+                },
+                {news_img: "./img/news2.jpg",
+                 news_source: "Huffington Post",
+                 news_date: "Dec 3, 2018",
+                 news_head: "A Huge Mystery About Ocean Plastics Remains Unsolved",
+                 news_content: "...A 7th grader has taken a stab at creating such technology. Anna Du ...",
+                 news_more: "https://www.huffingtonpost.com/entry/ocean-plastic-mystery_us_5be6e909e4b0769d24cdc309"
+                },
+                {news_img: "./img/news1.jpg",
+                 news_source: "Smithsonion",
+                 news_date: "Oct 23, 2018",
+                 news_head: "",
+                 news_content: "Anna Du was walking along Castle Island’s beach in South Boston when she noticed plastic scattered on the ...",
+                 news_more: "https://www.smithsonianmag.com/innovation/12-year-old-girl-built-robot-can-find-microplastics-ocean-180970607/"
+                },
+                {news_img: "./img/news3.jpg",
+                 news_source: "Cheddar TV",
+                 news_date: "Oct 16, 2018",
+                 news_head: "A 7th Grade Scientist Is on Mission to Clean Our Oceans",
+                 news_content: "Anna Du built a robot to help remove the 150 million metric tons of plastic waste from our oceans. She joins CBN to discuss her ambitions.",
+                 news_more: "https://www.newstimes.com/news/media/A-7th-Grade-Scientist-Is-on-Mission-to-Clean-Our-1371872.php"
+                },
+                {news_img: "img/treehugger.webp",
+                 news_source: "TreeHugger",
+                 news_date: "Oct 11, 2018",
+                 news_head: "Genius 6th Grader Invents Device That Hunts for Ocean Microplastics",
+                 news_content: "As one of 10 finalists of the 3M Young Scientist Challenge, 12-year-old Anna Du will now get the chance to bring her invention to the seas.",
+                 news_more: "https://www.treehugger.com/genius-th-grader-invents-device-hunts-harmful-microplastics-ocean-4854400"
+                },
+                {news_img: "img/anna-du-with-her-rov-invention.jpeg",
+                 news_source: "Inverse",
+                 news_date: "July 28, 2018",
+                 news_head: "SAVE OCEANS FROM MICROPLASTICS",
+                 news_content: "'She has all of the qualities — all of those essential ingredients — to be a great scientist.'... ",
+                 news_more: "https://www.inverse.com/article/47488-young-innovator-anna-du-rov-microplastic"
+                },
+                {news_img: "./img/news_accuweather.jpg",
+                 news_source: "AccuWeather",
+                 news_date: "Jul 17, 2018",
+                 news_head: "12-year-old engineer invents device to combat ocean microplastic pollution ",
+                 news_content: "Saving the planet’s oceans from plastic pollution isn’t on the agenda of a typical 12-year-old. However... ",
+                 news_more: "https://www.accuweather.com/en/weather-news/12-year-old-engineer-invents-device-to-combat-ocean-microplastic-pollution/347029"
+                },
+                {news_img: "img/anna-rov.webp",
+                 news_source: "EcoWatch",
+                 news_date: "Jun 28, 2018",
+                 news_head: "12-Year-Old Girl Invents Plastic-Detecting Robot to Save Our Oceans",
+                 news_content: "For 12-year-old Anna Du a love of the ocean and marine animals inspired her to build a device that hunts for microplastics... ",
+                 news_more: "https://www.ecowatch.com/plastic-pollution-solutions-inventions-2582120616.html"
+                },
+            ]
+        }
+    }
+}
+
+Vue.createApp(NewsApp).mount('#news')
