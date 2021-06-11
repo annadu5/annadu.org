@@ -189,6 +189,10 @@ const VideosApp = {
     data() {
         return {
             videos: [
+                { video_title: "World Oceans Week",
+                  video_url: "https://youtu.be/I__73QM7Cg8",
+                  video_img: "img/WorldOceansDay.jpg"
+                },
                 { video_title: "Operation Awesome Season 1",
                   video_url: "https://youtu.be/ORjygnCdPnk-s",
                   video_img: "https://img.youtube.com/vi/ORjygnCdPnk/0.jpg"
