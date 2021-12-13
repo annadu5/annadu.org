@@ -4,6 +4,13 @@ const NewsApp = {
     data() {
         return {
             items: [
+                {news_img: "https://images.squarespace-cdn.com/content/v1/5e7a581f8fd13046931cf26d/1619209222834-M5CBOM9OHJIQI5P73ZUM/PODCAST_GG_ARTWORK.png?format=750w",
+                 news_source: "Seeker",
+                 news_date: "June 24th, 2021",
+                 news_head: "The Genius Generation",
+                 news_content: "Listen to Anna on The Genius Generation PodCast",
+                 news_more: "https://beta.prx.org/stories/358059"
+                },
                 {news_img: "img/MissionMagazineCover.gif",
                  news_source: "Mission Magazine",
                  news_date: "May 27th, 2021",
@@ -53,7 +60,7 @@ const NewsApp = {
                  news_content: "On July 28 at 1pm ET, the Gloria Barron Prize for Young Heroes presents a virtual Young Heroes Summit that brings together past winners ...",
                  news_more: "https://barronprize.org/yhs/"
                 },
-                {news_img: "https://i.vimeocdn.com/video/874517927.webp",
+                {news_img: "http://i.vimeocdn.com/video/874517927-4ff8dbb9acf178d7bbff60e0eaa6c1752efc7c0ea80fcc8d29d4ecbc2d3cd82f-d_640",
                  news_source: "Water World",
                  news_date: "April 6, 2020",
                  news_head: "The Drop: Young Hero Spreads Awareness of Microplastics Pollution",
@@ -189,6 +196,14 @@ const VideosApp = {
     data() {
         return {
             videos: [
+                { video_title: "Upcycle a Trash CD player",
+                  video_url: "https://youtu.be/oWSweQbaqPQ",
+                  video_img: "https://img.youtube.com/vi/oWSweQbaqPQ/0.jpg"
+                },
+                { video_title: "All About Pyrolysis",
+                  video_url: "https://youtu.be/BUbi6DaYv9w",
+                  video_img: "https://img.youtube.com/vi/BUbi6DaYv9w/0.jpg"
+                },
                 { video_title: "World Oceans Week",
                   video_url: "https://youtu.be/I__73QM7Cg8",
                   video_img: "img/WorldOceansDay.jpg"
