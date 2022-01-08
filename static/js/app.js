@@ -4,6 +4,13 @@ const NewsApp = {
     data() {
         return {
             items: [
+                {news_img: "img/S__31342670.jpg",
+                 news_source: "National Science Museum (NSM)THAILAND",
+                 news_date: "November 9-19, 2021",
+                 news_head: "2021 International Photo Exhibition River and Ocean, Connecting Water to Life",
+                 news_content: "Anna's photograph was selected to be part of the 2021 International Photo Exhibition River and Ocean, Connecting Water to Life at the National Science and Technology Fair 2021 which will be held during 9 – 19 November 2021, the biggest fair of the year in science and technology in Thailand.",
+                 news_more: "https://www.nsm.or.th/english/index.php"
+                },
                 {news_img: "https://images.squarespace-cdn.com/content/v1/5e7a581f8fd13046931cf26d/1619209222834-M5CBOM9OHJIQI5P73ZUM/PODCAST_GG_ARTWORK.png?format=750w",
                  news_source: "Seeker",
                  news_date: "June 24th, 2021",
