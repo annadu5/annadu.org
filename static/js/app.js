@@ -5,11 +5,11 @@ const NewsApp = {
         return {
             items: [
                 {news_img: "img/jshs_ne_2022.jpg",
-                 news_source: "junior science and humanities symposium",
+                 news_source: "Junior Science And Humanities Symposium",
                  news_date: "March 24th, 2022",
                  news_head: "JSHS New England First Place",
-                 news_content: "Anna won First Place in JSHS New Englang",
-                 news_more: "img/jshs_2022_with_general.jpg"
+                 news_content: "Anna won First Place at Junior Science And Humanities Symposium New England region, and now is a two-time National Finalist.",
+                 news_more: "jshs2022.html"
                 },
                 {news_img: "img/NationalGeographyAward2022.png",
                  news_source: "National Geography",
