@@ -4,6 +4,20 @@ const NewsApp = {
     data() {
         return {
             items: [
+                {news_img: "img/jshs_ne_2022.jpg",
+                 news_source: "junior science and humanities symposium",
+                 news_date: "March 24th, 2022",
+                 news_head: "JSHS New England First Place",
+                 news_content: "Anna won First Place in JSHS New Englang",
+                 news_more: "img/jshs_2022_with_general.jpg"
+                },
+                {news_img: "img/NationalGeographyAward2022.png",
+                 news_source: "National Geography",
+                 news_date: "March 6th, 2022",
+                 news_head: "Cultivating Empathy for the Earth Award",
+                 news_content: "Anna won That's Geography! Cultivating Empathy for the Earth Award by Society of Science and Public and National Geography",
+                 news_more: "pdf/NationalGeographyAward.pdf"
+                },
                 {news_img: "img/S__31342670.jpg",
                  news_source: "National Science Museum (NSM)THAILAND",
                  news_date: "November 9-19, 2021",
@@ -38,6 +52,13 @@ const NewsApp = {
                  news_head: "Massachusett Science Engineering Fair",
                  news_content: "Anna won the Sanofi Genzyme award – the top prize. As a freshman, Anna is the youngest person to receive this distinction",
                  news_more: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf"
+                },
+                {news_img: "img/jshs_ne_2022.jpg",
+                 news_source: "junior science and humanities symposium",
+                 news_date: "April 20th, 2021",
+                 news_head: "JSHS National Finalist",
+                 news_content: "Anna won Second Place and National Finalist for oral presentation",
+                 news_more: "http://jshs.org/wp-content/uploads/2021/06/2021-NJSHS-Abstract-Catalog.pdf"
                 },
                 {news_img: "img/RegionIVFair2021.png",
                  news_source: "Region IV Science Fair",
