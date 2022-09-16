@@ -15,7 +15,7 @@ const NewsApp = {
                  news_source: "National Geography",
                  news_date: "March 6th, 2022",
                  news_head: "Cultivating Empathy for the Earth Award",
-                 news_content: "Anna won That's Geography! Cultivating Empathy for the Earth Award by Society of Science and Public and National Geography",
+                 news_content: "Anna won That's Geography! Cultivating Empathy for the Earth Award by Society of Science and Public and National Geographic",
                  news_more: "pdf/NationalGeographyAward.pdf"
                 },
                 {news_img: "img/S__31342670.jpg",
@@ -224,6 +224,10 @@ const VideosApp = {
     data() {
         return {
             videos: [
+                { video_title: "Upworthy Voices",
+                  video_url: "https://youtu.be/ZWN2U0xWsSQ",
+                  video_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg"
+                },
                 { video_title: "Upcycle a Trash CD player",
                   video_url: "https://youtu.be/oWSweQbaqPQ",
                   video_img: "https://img.youtube.com/vi/oWSweQbaqPQ/0.jpg"
