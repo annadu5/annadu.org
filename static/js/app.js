@@ -4,6 +4,13 @@ const NewsApp = {
     data() {
         return {
             items: [
+                {news_img: "https://img.youtube.com/vi/_DRW_qqB3lY/0.jpg",
+                 news_source: "Design Boom",
+                 news_date: "June 13th, 2022",
+                 news_head: "THE INSPIRING STORY OF ANNA DU",
+                 news_content: "If you’re in need of some wholesome content then this story of high-schooler Anna Du might just do the trick...",
+                 news_more: "https://www.designboom.com/technology/anna-du-teen-inventor-robot-microplastic-pollution-06-13-2022/"
+                },
                 {news_img: "img/jshs_ne_2022.jpg",
                  news_source: "Junior Science And Humanities Symposium",
                  news_date: "March 24th, 2022",
