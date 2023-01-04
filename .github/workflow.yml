@@ -1,0 +1,21 @@
+name: Deploy Website
+# Learned from https://www.alexhyett.com/github-actions-deploy-to-s3/
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Deploy to S3
+        run: s3 sync $GITHUB_WORKSPACE/annadu.org/static/ s3://annadu.org --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
