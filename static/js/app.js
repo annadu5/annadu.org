@@ -18,6 +18,13 @@ const NewsApp = {
                  news_content: "If you’re in need of some wholesome content then this story of high-schooler Anna Du might just do the trick...",
                  news_more: "https://www.designboom.com/technology/anna-du-teen-inventor-robot-microplastic-pollution-06-13-2022/"
                 },
+                {news_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg",
+                 news_source: "Upworthy",
+                 news_date: "April 5th, 2022",
+                 news_head: "Upworthy Voices: Anna Du is Saving Our Oceans!",
+                 news_content: "Anna Du is only 16 - but she's changing the world already. This motivated and environmentally conscious high school student...",
+                 news_more: "https://youtu.be/ZWN2U0xWsSQ"
+                },
                 {news_img: "img/jshs_ne_2022.jpg",
                  news_source: "Junior Science And Humanities Symposium",
                  news_date: "March 24th, 2022",
