@@ -4,6 +4,13 @@ const NewsApp = {
     data() {
         return {
             items: [
+                {news_img: "img/YCM7Coveer-LeadingTheWay.png",
+                 news_source: "Young Change Makers Book Series",
+                 news_date: "June 22, 2022",
+                 news_head: "Leading The Way",
+                 news_content: "Anna is in the book series Young Change Makes - Leading The Way",
+                 news_more: "img/YCM-Book7pressrelease.png"
+                },
                 {news_img: "img/S__31342670.jpg",
                  news_source: "National Science Museum (NSM)THAILAND",
                  news_date: "November 9-19, 2021",
@@ -36,7 +43,7 @@ const NewsApp = {
                  news_source: "MSEF",
                  news_date: "May 4th, 2021",
                  news_head: "Massachusett Science Engineering Fair",
-                 news_content: "Anna won the Sanofi Genzyme award – the top prize. As a freshman, Anna is the youngest person to receive this distinction",
+                 news_content: "Anna won the grand prize of Mass Science Fair – Sanofi Genzyme Award. As a freshman, Anna is the youngest person to receive this distinction",
                  news_more: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf"
                 },
                 {news_img: "img/RegionIVFair2021.png",
@@ -46,7 +53,7 @@ const NewsApp = {
                  news_content: "Anna won First Place in Massachusetts Region IV Science Fair, and qualified for ISEF 2021",
                  news_more: "https://sites.google.com/site/regionivscifair/winners/2021-winners"
                 },
-                {news_img: "https://img.youtube.com/vi/ORjygnCdPnk/0.jpg",
+                {news_img: "https://img.youtube.com/vi/hndmEWUNlzg/0.jpg",
                  news_source: "BYUTV",
                  news_date: "Summer, 2021",
                  news_head: "Operation Awesome",
@@ -216,16 +223,16 @@ const VideosApp = {
                   video_img: "img/WorldOceansDay.jpg"
                 },
                 { video_title: "Operation Awesome Season 1",
-                  video_url: "https://youtu.be/ORjygnCdPnk-s",
-                  video_img: "https://img.youtube.com/vi/ORjygnCdPnk/0.jpg"
+                  video_url: "https://youtu.be/hndmEWUNlzg-s",
+                  video_img: "https://img.youtube.com/vi/hndmEWUNlzg/0.jpg"
                 },
                 { video_title: "Operation Awesome Season 1",
-                  video_url: "https://youtu.be/kJxjXhu3kp4-s",
-                  video_img: "https://img.youtube.com/vi/kJxjXhu3kp4/0.jpg"
+                  video_url: "https://youtu.be/SYgT1x6_occ-s",
+                  video_img: "https://img.youtube.com/vi/SYgT1x6_occ/0.jpg"
                 },
                 { video_title: "Operation Awesome Season 1",
-                  video_url: "https://youtu.be/QmDqB2N0M-8-s",
-                  video_img: "https://img.youtube.com/vi/QmDqB2N0M-8/0.jpg"
+                  video_url: "https://youtu.be/BHz7b6DxKtc-s",
+                  video_img: "https://img.youtube.com/vi/BHz7b6DxKtc/0.jpg"
                 },
                 { video_title: "What are Ocean Microplastics?",
                   video_url: "https://youtu.be/YuTuHKGV4-s",
