@@ -4,7 +4,7 @@ const NewsApp = {
     data() {
         return {
             items: [
-                {news_img: "img/YCM7Coveer-LeadingTheWay.png",
+                {news_img: "img/YCM7Cover-LeadingTheWay-medium.png",
                  news_source: "Young Change Makers Book Series",
                  news_date: "June 22, 2022",
                  news_head: "Leading The Way",
@@ -25,7 +25,7 @@ const NewsApp = {
                  news_content: "Anna Du is only 16 - but she's changing the world already. This motivated and environmentally conscious high school student...",
                  news_more: "https://youtu.be/ZWN2U0xWsSQ"
                 },
-                {news_img: "img/jshs_ne_2022.jpg",
+                {news_img: "img/jshs_ne_2022_medium.jpg",
                  news_source: "Junior Science And Humanities Symposium",
                  news_date: "March 24th, 2022",
                  news_head: "JSHS New England First Place",
@@ -53,7 +53,7 @@ const NewsApp = {
                  news_content: "Listen to Anna on The Genius Generation PodCast",
                  news_more: "https://beta.prx.org/stories/358059"
                 },
-                {news_img: "img/MissionMagazineCover.gif",
+                {news_img: "img/MissionMagazineCover1.jpg",
                  news_source: "Mission Magazine",
                  news_date: "May 27th, 2021",
                  news_head: "Youth Series",
@@ -74,14 +74,14 @@ const NewsApp = {
                  news_content: "Anna won the grand prize of Mass Science Fair – Sanofi Genzyme Award. As a freshman, Anna is the youngest person to receive this distinction",
                  news_more: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf"
                 },
-                {news_img: "img/JSHS-59th-Annual.png",
+                {news_img: "img/JSHS-Logo-RGB-1.png",
                  news_source: "junior science and humanities symposium",
                  news_date: "April 20th, 2021",
                  news_head: "JSHS National Finalist",
                  news_content: "Anna won Second Place and National Finalist for oral presentation",
                  news_more: "http://jshs.org/wp-content/uploads/2021/06/2021-NJSHS-Abstract-Catalog.pdf"
                 },
-                {news_img: "img/RegionIVFair2021.png",
+                {news_img: "img/RegionIVFair2021-medium.png",
                  news_source: "Region IV Science Fair",
                  news_date: "Mar 6th, 2021",
                  news_head: "Region IV Science Fair",
@@ -95,7 +95,7 @@ const NewsApp = {
                  news_content: "",
                  news_more: "https://www.prnewswire.com/news-releases/byutv-winter-premieres-include-operation-awesome-debut-301197957.html"
                 },
-                {news_img: "img/20_under_20_cover.png",
+                {news_img: "img/20_under_20_cover_medium.png",
                  news_source: "Diversity In Action",
                  news_date: "Summer, 2020",
                  news_head: "20 Under 20 Young Innovators",
@@ -116,7 +116,7 @@ const NewsApp = {
                  news_content: "An extraordinary eighth grader has made it her mission ...",
                  news_more: "https://www.waterworld.com/home/video/14173450/the-drop-young-hero-spreads-awareness-of-microplastic-pollution"
                 },
-                {news_img: "./img/WeDay.png",
+                {news_img: "./img/WeDay_small.png",
                  news_source: "We Day",
                  news_date: "Feburary, 2020",
                  news_head: "Anna has been selected to be featured in the WE DAY BROADCAST of 2020!",
@@ -158,7 +158,7 @@ const NewsApp = {
                  news_content: "...To jsou projekty, na kterých ve volném čase pracuje Anna Du...",
                  news_more: "https://www.idnes.cz/technet/technika/anna-du-robot-programovani-python-umela-inteligence.A190521_135705_tec_technika_pka"
                 },
-                {news_img: "img/Czech_Innovation_Week_Keynote_Speaker.jpeg",
+                {news_img: "img/Czech_Innovation_Week_Keynote_Speaker_small.jpeg",
                  news_source: "Czech Innovation Week",
                  news_date: "May 22, 2019",
                  news_head: "keynote speaker at Czech Innovation Week 2019",
@@ -172,7 +172,7 @@ const NewsApp = {
                  news_content: "",
                  news_more: "https://scifair.com/wp-content/uploads/2019/05/MS-WINNERS-2019.pdf"
                 },
-                {news_img: "img/LeadLikeGirl_Keynote_Speaker.jpeg",
+                {news_img: "img/LeadLikeGirl_Keynote_Speaker_small.jpeg",
                  news_source: "LeadLikeGirl",
                  news_date: "April, 2019",
                  news_head: "Keynote Speaker at LeadLikeGirl Conference",
@@ -193,7 +193,7 @@ const NewsApp = {
                  news_content: "...A 7th grader has taken a stab at creating such technology. Anna Du ...",
                  news_more: "https://www.huffingtonpost.com/entry/ocean-plastic-mystery_us_5be6e909e4b0769d24cdc309"
                 },
-                {news_img: "./img/news1.jpg",
+                {news_img: "./img/smithsonion-news1.jpg",
                  news_source: "Smithsonion",
                  news_date: "Oct 23, 2018",
                  news_head: "",
@@ -259,7 +259,7 @@ const VideosApp = {
                 },
                 { video_title: "World Oceans Week",
                   video_url: "https://youtu.be/I__73QM7Cg8",
-                  video_img: "img/WorldOceansDay.jpg"
+                  video_img: "https://img.youtube.com/vi/I__73QM7Cg8/0.jpg"
                 },
                 { video_title: "Operation Awesome Season 1",
                   video_url: "https://youtu.be/hndmEWUNlzg-s",
@@ -350,7 +350,7 @@ const CompetitionsApp = {
                 { compet_name: "Junior Science and Humanities Symposium 2022",
                   compet_title: "First Place in New England",
                   compet_url: "jshs2022.html",
-                  compet_img: "img/jshs_ne_2022.jpg"
+                  compet_img: "img/jshs_ne_2022_medium.jpg"
                 },
                 { compet_name: "Mass Science Engineering Fair 2021",
                   compet_title: "Grand Prize",
@@ -365,7 +365,7 @@ const CompetitionsApp = {
                 { compet_name: "Junior Science and Humanities Symposium 2021",
                   compet_title: "National Finalist",
                   compet_url: "http://jshs.org/wp-content/uploads/2021/06/2021-NJSHS-Abstract-Catalog.pdf",
-                  compet_img: "img/JSHS-59th-Annual.png"
+                  compet_img: "img/JSHS-Logo-RGB-1.png"
                 },
                 { compet_name: "Broadcom Masters 2019",
                   compet_title: "Broadcom Masters 2019 Finalist",
