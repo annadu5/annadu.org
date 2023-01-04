@@ -341,4 +341,19 @@ const VideosApp = {
         }
     }
 }
-Vue.createApp(VideosApp).mount('#videos')
+Vue.createApp(VideosApp).mount('#videos');
+
+const CompetitionsApp = {
+    data() {
+        return {
+            competitions: [
+                { video_title: "Upworthy Voices",
+                  video_url: "https://youtu.be/ZWN2U0xWsSQ",
+                  video_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg"
+                },
+            ]
+        }
+    }
+}
+Vue.createApp(CompetitionsApp).mount('#competitions');
+
