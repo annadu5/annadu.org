@@ -11,6 +11,27 @@ const NewsApp = {
                  news_content: "Anna is in the book series Young Change Makes - Leading The Way",
                  news_more: "img/YCM-Book7pressrelease.png"
                 },
+                {news_img: "https://img.youtube.com/vi/_DRW_qqB3lY/0.jpg",
+                 news_source: "Design Boom",
+                 news_date: "June 13th, 2022",
+                 news_head: "THE INSPIRING STORY OF ANNA DU",
+                 news_content: "If you’re in need of some wholesome content then this story of high-schooler Anna Du might just do the trick...",
+                 news_more: "https://www.designboom.com/technology/anna-du-teen-inventor-robot-microplastic-pollution-06-13-2022/"
+                },
+                {news_img: "img/jshs_ne_2022.jpg",
+                 news_source: "Junior Science And Humanities Symposium",
+                 news_date: "March 24th, 2022",
+                 news_head: "JSHS New England First Place",
+                 news_content: "Anna won First Place at Junior Science And Humanities Symposium New England region, and now is a two-time National Finalist.",
+                 news_more: "jshs2022.html"
+                },
+                {news_img: "img/NationalGeographyAward2022.png",
+                 news_source: "National Geography",
+                 news_date: "March 6th, 2022",
+                 news_head: "Cultivating Empathy for the Earth Award",
+                 news_content: "Anna won That's Geography! Cultivating Empathy for the Earth Award by Society of Science and Public and National Geographic",
+                 news_more: "pdf/NationalGeographyAward.pdf"
+                },
                 {news_img: "img/S__31342670.jpg",
                  news_source: "National Science Museum (NSM)THAILAND",
                  news_date: "November 9-19, 2021",
@@ -45,6 +66,13 @@ const NewsApp = {
                  news_head: "Massachusett Science Engineering Fair",
                  news_content: "Anna won the grand prize of Mass Science Fair – Sanofi Genzyme Award. As a freshman, Anna is the youngest person to receive this distinction",
                  news_more: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf"
+                },
+                {news_img: "img/jshs_ne_2022.jpg",
+                 news_source: "junior science and humanities symposium",
+                 news_date: "April 20th, 2021",
+                 news_head: "JSHS National Finalist",
+                 news_content: "Anna won Second Place and National Finalist for oral presentation",
+                 news_more: "http://jshs.org/wp-content/uploads/2021/06/2021-NJSHS-Abstract-Catalog.pdf"
                 },
                 {news_img: "img/RegionIVFair2021.png",
                  news_source: "Region IV Science Fair",
@@ -210,6 +238,10 @@ const VideosApp = {
     data() {
         return {
             videos: [
+                { video_title: "Upworthy Voices",
+                  video_url: "https://youtu.be/ZWN2U0xWsSQ",
+                  video_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg"
+                },
                 { video_title: "Upcycle a Trash CD player",
                   video_url: "https://youtu.be/oWSweQbaqPQ",
                   video_img: "https://img.youtube.com/vi/oWSweQbaqPQ/0.jpg"
