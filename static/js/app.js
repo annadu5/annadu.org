@@ -74,7 +74,7 @@ const NewsApp = {
                  news_content: "Anna won the grand prize of Mass Science Fair – Sanofi Genzyme Award. As a freshman, Anna is the youngest person to receive this distinction",
                  news_more: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf"
                 },
-                {news_img: "img/jshs_ne_2022.jpg",
+                {news_img: "img/JSHS-59th-Annual.png",
                  news_source: "junior science and humanities symposium",
                  news_date: "April 20th, 2021",
                  news_head: "JSHS National Finalist",
