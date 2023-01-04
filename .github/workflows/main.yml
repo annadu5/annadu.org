@@ -18,4 +18,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Deploy to S3
-        run: aws s3 sync $GITHUB_WORKSPACE/annadu.org/static/ s3://annadu.org --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+        run: aws s3 sync $GITHUB_WORKSPACE/static/ s3://annadu.org --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
