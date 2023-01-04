@@ -348,7 +348,7 @@ const CompetitionsApp = {
         return {
             competitions: [
                 { compet_name: "Junior Science and Humanities Symposium 2022",
-                  compet_title: "New England First Place",
+                  compet_title: "First Place in New England",
                   compet_url: "jshs2022.html",
                   compet_img: "img/jshs_ne_2022.jpg"
                 },
