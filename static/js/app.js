@@ -352,15 +352,15 @@ const CompetitionsApp = {
                   compet_url: "jshs2022.html",
                   compet_img: "img/jshs_ne_2022.jpg"
                 },
-                { compet_name: "Regeneron ISEF 2021",
-                  compet_title: "3rd Place",
-                  compet_url: "https://www.societyforscience.org/press-release/2021-regeneron-isef-grand-awards/",
-                  compet_img: "img/isef2021.jpg"
-                },
                 { compet_name: "Mass Science Engineering Fair 2021",
                   compet_title: "Grand Prize",
                   compet_url: "https://secureservercdn.net/50.62.90.29/e99.5ea.myftpupload.com/wp-content/uploads/2021/05/2021-Awards-.pdf",
                   compet_img: "img/MSEF2021.png"
+                },
+                { compet_name: "Regeneron ISEF 2021",
+                  compet_title: "3rd Place",
+                  compet_url: "https://www.societyforscience.org/press-release/2021-regeneron-isef-grand-awards/",
+                  compet_img: "img/isef2021.jpg"
                 },
                 { compet_name: "Junior Science and Humanities Symposium 2021",
                   compet_title: "National Finalist",
