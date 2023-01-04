@@ -266,50 +266,20 @@
 				<!-- /Section header -->
 
 				<!-- Competition -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="img/BCM_homepage_banner_text.jpg" alt="">
+				<div class="col-md-4 col-xs-6 work" v-for="competition in competitions">
+					<img class="img-responsive" v-bind:src="competition.compet_img" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Broadcom Masters 2019</span>
-						<h3>Broadcom Masters 2019 Finalist</h3>
+						<span>{{competition.compet_name}}</span>
+						<h3>{{competition.compet_title}}</h3>
 						<div class="work-link">
-							<a href="https://www.societyforscience.org/broadcom-masters/"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="img/BCM_homepage_banner_text.jpg"><i class="fa fa-search"></i></a>
+							<a v-bind:href="competition.compet_url"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" v-bind:src="competition.compet_img"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
 				<!-- /Competition -->
 
-				<!-- Competition -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/activity1.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Broadcom Masters 2018</span>
-						<h3>Broadcom Masters 2018 Finalist</h3>
-						<div class="work-link">
-							<a href="https://student.societyforscience.org/broadcom-masters-2018-finalists#Du"><i
-									class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/activity1.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Competition -->
-
-				<!-- Competition -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/activity2.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>3M Discovery Young Scientist Challenge</span>
-						<h3>Top 10 in YSC</h3>
-						<div class="work-link">
-							<a href="https://www.youngscientistlab.com/competition/video_challenge/archives/2018"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/activity2.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Competition -->
 
 				<!-- Work 
 				<div class="col-md-4 col-xs-6 work">

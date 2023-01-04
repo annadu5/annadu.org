@@ -347,9 +347,20 @@ const CompetitionsApp = {
     data() {
         return {
             competitions: [
-                { video_title: "Upworthy Voices",
-                  video_url: "https://youtu.be/ZWN2U0xWsSQ",
-                  video_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg"
+                { compet_name: "Broadcom Masters 2019",
+                  compet_title: "Broadcom Masters 2019 Finalist",
+                  compet_url: "https://www.societyforscience.org/broadcom-masters/",
+                  compet_img: "img/BCM_homepage_banner_text.jpg"
+                },
+                { compet_name: "Broadcom Masters 2018",
+                  compet_title: "Broadcom Masters 2018 Finalist",
+                  compet_url: "https://student.societyforscience.org/broadcom-masters-2018-finalists#Du",
+                  compet_img: "img/activity1.jpg"
+                },
+                { compet_name: "3M Discovery Young Scientist Challenge 2018",
+                  compet_title: "Top 10 in YSC",
+                  compet_url: "https://www.youngscientistlab.com/competition/video_challenge/archives/2018",
+                  compet_img: "img/activity2.jpg"
                 },
             ]
         }
