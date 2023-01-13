@@ -1,5 +1,53 @@
 // const { default: Vue } = require("vue")
 
+const NavMenu = {
+  data() {
+    return {
+      items: [
+        {
+          nav_content: "Home",
+          nav_url: "#home"
+        },
+        {
+          nav_content: "News",
+          nav_url: "#news"
+        },
+        {
+          nav_content: "Videos",
+          nav_url: "#videos"
+        },
+        {
+          nav_content: "Competitions",
+          nav_url: "#competitions"
+        },
+        {
+          nav_content: "Contact",
+          nav_url: "#contact"
+        },
+        {
+          nav_content: "About",
+          nav_url: "#about"
+        },
+        {
+          nav_content: "YouTube Channel",
+          nav_url: "https://www.youtube.com/@microplasticsgirl",
+          target_blank: true
+        },
+        {
+          nav_content: "Deep Plastics Initiative",
+          nav_url: "http://deepplastics.org",
+          target_blank: true
+        },
+        {
+          nav_content: "Book",
+          nav_url: "https://www.amazon.com/Microplastics-Me-Anna-Du/dp/1943431507/",
+          target_blank: true        },
+      ]
+    }
+  }
+};
+Vue.createApp(NavMenu).mount('#nav');
+
 const NewsApp = {
     data() {
         return {
