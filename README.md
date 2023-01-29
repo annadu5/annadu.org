@@ -11,4 +11,4 @@ Anna Du's [Web Site](https://annadu.org)
   [docs/js/app.js](https://github.com/annadu5/annadu.org/blob/master/docs/js/app.js) has all the news items and video contents.
 
 ## Testing and branching
-- Branch `staging` is the [ Web Site Testing Page](https://annadu5.github.io/annadu.org/) 
+- Branch `github-pages` is the [ Web Site Testing Page](https://annadu5.github.io/annadu.org/)
