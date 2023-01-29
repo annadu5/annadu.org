@@ -1,5 +1,5 @@
 # annadu.org
-Anna Du Web Site
+Anna Du's [Web Site](https://annadu.org)
 
 ## Structure
 - archive/ : old web site
@@ -10,4 +10,5 @@ Anna Du Web Site
 ## To add news or video
   [docs/js/app.js](https://github.com/annadu5/annadu.org/blob/master/docs/js/app.js) has all the news items and video contents.
 
-abc
+## Testing and branching
+- Branch `github-pages` is the [ Web Site Testing Page](https://annadu5.github.io/annadu.org/)
