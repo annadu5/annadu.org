@@ -1,10 +1,11 @@
 # annadu.org
-My Static Web Site
+Anna Du Web Site
 
 ## Structure
 - archive/ : old web site
-- static/ : new web site
-  - index.html : Static single-page website
+- docs/ : new web site
+  - index.html : Website entrance
+  - js/app.js : Website content
 
 ## To add news or video
-  [static/js/app.js](https://github.com/annadu5/annadu.org/blob/master/static/js/app.js) has all the news items and video contents.
+  [docs/js/app.js](https://github.com/annadu5/annadu.org/blob/master/docs/js/app.js) has all the news items and video contents.
