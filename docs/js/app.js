@@ -52,6 +52,13 @@ const NewsApp = {
     data() {
         return {
             items: [
+                {news_img: "img/AnnaDuGoodMorningAmerica.jpg",
+                 news_source: "Good Morning America",
+                 news_date: "March 24, 2023",
+                 news_head: "Teen raises awareness about microplastics in oceans",
+                 news_content: "Anna Du, a 17-year-old high school student, invented a device to detect dangerous microplastics in the ocean in hopes of raising awareness about the issue.",
+                 news_more: "https://www.goodmorningamerica.com/living/video/teen-raises-awareness-microplastics-oceans-98095186"
+                },
                 {news_img: "img/YCM7Cover-LeadingTheWay-medium.png",
                  news_source: "Young Change Makers Book Series",
                  news_date: "June 22, 2022",
