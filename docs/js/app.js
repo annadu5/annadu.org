@@ -52,6 +52,14 @@ const NewsApp = {
     data() {
         return {
             items: [
+            {
+              news_img: "https://www.davidsongifted.org/wp-content/uploads/2023/08/Anna-Du-1-545x500.jpg",
+              news_source: "Davidson Fellows Scholarship",
+              news_date: "July 19, 2023",
+              news_head: "2024 Davidson Fellows Scholarship",
+              news_content: "Anna Du Named 2023 Davidson Fellows Scholarship Winner ",
+              news_more: "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/fellows/current-and-past-fellows/2023-fellows/2023-davidson-fellow-anna-du/"
+            },
                 {news_img: "img/AnnaDuGoodMorningAmerica.jpg",
                  news_source: "Good Morning America/ABC",
                  news_date: "March 24, 2023",
@@ -307,6 +315,14 @@ const VideosApp = {
     data() {
         return {
             videos: [
+                { video_title: "Museum of Science",
+                  video_img: "https://i.ytimg.com/an_webp/hsX_KkwIsvU/mqdefault_6s.webp?du=3000&sqp=CNnPwqgG&rs=AOn4CLDfDRqqVXooXNJ2YNjoNAJ3PasmJw",
+                  video_url: "https://www.youtube.com/shorts/hsX_KkwIsvU"
+                },
+                { video_title: "Museum of Science",
+                  video_img: "https://i.ytimg.com/an_webp/iDml4OsHLuY/mqdefault_6s.webp?du=3000&sqp=CLr_wqgG&rs=AOn4CLBcKffKrzkTVmDtR_f40O1VIPqMfw",
+                  video_url: "https://www.youtube.com/shorts/iDml4OsHLuY"
+                },
                 { video_title: "Upworthy Voices",
                   video_url: "https://youtu.be/ZWN2U0xWsSQ",
                   video_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg"
