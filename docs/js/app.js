@@ -316,11 +316,11 @@ const VideosApp = {
         return {
             videos: [
                 { video_title: "Museum of Science",
-                  video_img: "https://i.ytimg.com/an_webp/hsX_KkwIsvU/mqdefault_6s.webp?du=3000&sqp=CNnPwqgG&rs=AOn4CLDfDRqqVXooXNJ2YNjoNAJ3PasmJw",
+                video_img: "https://i.ytimg.com/vi/hsX_KkwIsvU/maxres2.jpg",
                   video_url: "https://www.youtube.com/shorts/hsX_KkwIsvU"
                 },
                 { video_title: "Museum of Science",
-                  video_img: "https://i.ytimg.com/an_webp/iDml4OsHLuY/mqdefault_6s.webp?du=3000&sqp=CLr_wqgG&rs=AOn4CLBcKffKrzkTVmDtR_f40O1VIPqMfw",
+                  video_img: "https://i.ytimg.com/vi/iDml4OsHLuY/maxres2.jpg",
                   video_url: "https://www.youtube.com/shorts/iDml4OsHLuY"
                 },
                 { video_title: "Upworthy Voices",
