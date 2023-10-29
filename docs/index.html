@@ -284,6 +284,37 @@
 	<!-- /competitions -->
 
 
+	<!-- Research -->
+	<div id="research" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Research</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Research -->
+				<div class="col-md-12" v-for="paper in researches">
+					<a v-bind:href="paper.paper_url"><i class="fa fa-external-link"><h4>{{paper.paper_title}}</h4></a>
+				</div>
+				<!-- /Research -->
+
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Research -->
+
 
 
 
@@ -393,8 +424,8 @@
 				<!-- about -->
 				<div class="col-md-12">
 					<div class="about">
-						<i class="fa fa-magic"></i>
-						<h3>Anna Du</h3>
+						<a href="pdf/resume_20231029.pdf" target="_blank"><i class="fa fa-magic"></i></a>
+						<a href="pdf/resume_20231029.pdf" target="_blank"><h3>Anna Du</h3></a>
 						<p>Anna Du is a high school student in Massachusetts. She is a nationally recognized advocate for microplastics awareness and pollution prevention. Her interest in saving the ocean from plastics pollution has lead to her becoming the top-rated female middle schooler in science fairs in the country, as she has placed first in her state science and engineering fair, became a national Broadcom MASTERS finalist twice, and was named a Top Ten Young Scientist in the US, by Discovery Education and 3M. Her works have been featured by WGBH, Huffington Post, FOX 25 News, Fast Company and Smithsonian Magazine. News about her achievements have been translated to numerous languages around the world. Her goal is to spread the word not only about the dangers of microplastics in our environment, but also about the ways to mitigate this problem. Anna is calling on young people everywhere to become STEM literate, to use their knowledge to help solve world problems that will face their generation as they get older, and to prevent further damage to the climate and the environment to help preserve Earth for generations to come.</p>
 					</div>
 				</div>
