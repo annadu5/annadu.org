@@ -21,12 +21,21 @@ const NavMenu = {
           nav_url: "#competitions"
         },
         {
+          nav_content: "Research",
+          nav_url: "#Research"
+        },
+        {
           nav_content: "Contact",
           nav_url: "#contact"
         },
         {
           nav_content: "About",
           nav_url: "#about"
+        },
+        {
+          nav_content: "Resume",
+          nav_url: "pdf/resume_20231029.pdf",
+          target_blank: true
         },
         {
           nav_content: "YouTube Channel",
@@ -52,14 +61,22 @@ const NewsApp = {
     data() {
         return {
             items: [
-            {
-              news_img: "https://www.davidsongifted.org/wp-content/uploads/2023/08/Anna-Du-1-545x500.jpg",
-              news_source: "Davidson Fellows Scholarship",
-              news_date: "July 19, 2023",
-              news_head: "2024 Davidson Fellows Scholarship",
-              news_content: "Anna Du Named 2023 Davidson Fellows Scholarship Winner ",
-              news_more: "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/fellows/current-and-past-fellows/2023-fellows/2023-davidson-fellow-anna-du/"
-            },
+              {
+                news_img: "https://www.davidsongifted.org/wp-content/uploads/2023/08/Anna-Du-1-545x500.jpg",
+                news_source: "Davidson Fellows Scholarship",
+                news_date: "July 19, 2023",
+                news_head: "2024 Davidson Fellows Scholarship",
+                news_content: "Anna Du Named 2023 Davidson Fellows Scholarship Winner ",
+                news_more: "https://www.davidsongifted.org/gifted-programs/fellows-scholarship/fellows/current-and-past-fellows/2023-fellows/2023-davidson-fellow-anna-du/"
+              },
+              {
+                news_img: "https://i.ytimg.com/vi/hsX_KkwIsvU/maxres2.jpg",
+                  news_source: "Museum Of Science",
+                  news_date: "June 5th, 2023",
+                  news_head: "Museum Of Science",
+                news_content: "Teen Developed Amazing AI tool to Predict Ocean Plastic Pollution",
+                news_more: "https://www.youtube.com/shorts/hsX_KkwIsvU"
+              },
                 {news_img: "img/AnnaDuGoodMorningAmerica.jpg",
                  news_source: "Good Morning America/ABC",
                  news_date: "March 24, 2023",
@@ -316,10 +333,6 @@ const VideosApp = {
         return {
             videos: [
                 { video_title: "Museum of Science",
-                video_img: "https://i.ytimg.com/vi/hsX_KkwIsvU/maxres2.jpg",
-                  video_url: "https://www.youtube.com/shorts/hsX_KkwIsvU"
-                },
-                { video_title: "Museum of Science",
                   video_img: "https://i.ytimg.com/vi/iDml4OsHLuY/maxres2.jpg",
                   video_url: "https://www.youtube.com/shorts/iDml4OsHLuY"
                 },
@@ -466,3 +479,24 @@ const CompetitionsApp = {
 }
 Vue.createApp(CompetitionsApp).mount('#competitions');
 
+const ResearchApp = {
+  data() {
+    return {
+      researches: [
+        {
+          paper_title: "Utilizing Machine Learning to Identify Time Asymmetry of DNA Loop Extrusion",
+          paper_url: "pdf/20231015_presentation.231029.pdf",
+        },
+        {
+          paper_title: "Developing a novel DLC-based thermo-photo-betavoltaic device for remote extensible energy conversion and storage",
+          paper_url: "pdf/2022_paper_3_11.231029.pdf",
+        },
+        {
+          paper_title: "Developing a 3D trajectory modeling system to predict the aggregation of ocean floor microplastics using a voxel-based neural network approach",
+          paper_url: "pdf/paper_2021.231029.pdf",
+        },
+      ]
+    }
+  }
+}
+Vue.createApp(ResearchApp).mount('#research');
