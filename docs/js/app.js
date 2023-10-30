@@ -22,7 +22,7 @@ const NavMenu = {
         },
         {
           nav_content: "Research",
-          nav_url: "#Research"
+          nav_url: "#research"
         },
         {
           nav_content: "Contact",
@@ -38,7 +38,7 @@ const NavMenu = {
           target_blank: true
         },
         {
-          nav_content: "YouTube Channel",
+          nav_content: "YouTube",
           nav_url: "https://www.youtube.com/@microplasticsgirl",
           target_blank: true
         },
