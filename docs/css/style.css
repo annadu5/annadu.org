@@ -1596,6 +1596,19 @@ header {
   }
 }
 
+/*------------------------------------*\
+    Research
+\*------------------------------------*/
+.research-meta {
+    margin-bottom: 20px;
+}
+
+.research-meta li {
+    display: inline-block;
+    font-size: 14px;
+    color: #1f3c4f;
+    margin-right: 10px;
+}
 
 
 /*------------------------------------*\
