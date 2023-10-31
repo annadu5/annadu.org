@@ -301,7 +301,11 @@
 
 				<!-- Research -->
 				<div class="col-md-12" v-for="paper in researches">
-					<a v-bind:href="paper.paper_url" target="_blank"><h4>{{paper.paper_title}}</h4></a>
+					<div class="research-content">
+					  <ul class="research-meta">
+					    <li><a v-bind:href="paper.paper_url" target="_blank"><h4>{{paper.paper_title}}</h4></a></li>
+					  </ul>
+					</div>
 				</div>
 				<!-- /Research -->
 
