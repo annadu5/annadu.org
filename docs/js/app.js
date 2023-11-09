@@ -62,6 +62,14 @@ const NewsApp = {
         return {
             items: [
               {
+                news_img: "https://cdn.hercampus.com/SH6M70M3/as/76j8vhh4gtnh9wwtrvjwp438/gen-z-women-stem",
+                news_source: "National STEM Day",
+                news_date: "November 9, 2023",
+                news_head: "Gen Z Women in STEM",
+                news_content: "Anna is one of Gen Z Women making wave in STEM",
+                news_more: "https://www.hercampus.com/career/gen-z-women-stem/"
+              },
+              {
                 news_img: "https://www.davidsongifted.org/wp-content/uploads/2023/08/Anna-Du-1-545x500.jpg",
                 news_source: "Davidson Fellows Scholarship",
                 news_date: "July 19, 2023",
