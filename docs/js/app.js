@@ -79,11 +79,19 @@ const NewsApp = {
               },
               {
                 news_img: "https://i.ytimg.com/vi/hsX_KkwIsvU/maxres2.jpg",
-                  news_source: "Museum Of Science",
-                  news_date: "June 5th, 2023",
-                  news_head: "Museum Of Science",
+                news_source: "Museum Of Science",
+                news_date: "June 5th, 2023",
+                news_head: "Museum Of Science",
                 news_content: "Teen Developed Amazing AI tool to Predict Ocean Plastic Pollution",
                 news_more: "https://www.youtube.com/shorts/hsX_KkwIsvU"
+              },
+              {
+                news_img: "https://www.inspiremore.com/wp-content/uploads/2022/04/anna-du-microplastics-girl-featured-image.jpg",
+                news_source: "Inspire More",
+                news_date: "June 2nd, 2023",
+                news_head: "Teen Inventor Takes On Microplastic Pollution Armed With A Robot And Book",
+                news_content: "Anna Du grew up with a hunger for knowledge and a passion for making the earth a better place. Now, at just 16 years old, she’s already making incredible contributions to help reduce microplastic pollution",
+                news_more: "https://www.inspiremore.com/teen-inventor-takes-on-microplastic-pollution-armed-with-a-robot-and-book/"
               },
                 {news_img: "img/AnnaDuGoodMorningAmerica.jpg",
                  news_source: "Good Morning America/ABC",
