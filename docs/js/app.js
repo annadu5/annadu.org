@@ -85,14 +85,6 @@ const NewsApp = {
                 news_content: "Teen Developed Amazing AI tool to Predict Ocean Plastic Pollution",
                 news_more: "https://www.youtube.com/shorts/hsX_KkwIsvU"
               },
-              {
-                news_img: "https://www.inspiremore.com/wp-content/uploads/2022/04/anna-du-microplastics-girl-featured-image.jpg",
-                news_source: "Inspire More",
-                news_date: "June 2nd, 2023",
-                news_head: "Teen Inventor Takes On Microplastic Pollution Armed With A Robot And Book",
-                news_content: "Anna Du grew up with a hunger for knowledge and a passion for making the earth a better place. Now, at just 16 years old, she’s already making incredible contributions to help reduce microplastic pollution",
-                news_more: "https://www.inspiremore.com/teen-inventor-takes-on-microplastic-pollution-armed-with-a-robot-and-book/"
-              },
                 {news_img: "img/AnnaDuGoodMorningAmerica.jpg",
                  news_source: "Good Morning America/ABC",
                  news_date: "March 24, 2023",
@@ -121,6 +113,14 @@ const NewsApp = {
                  news_content: "If you’re in need of some wholesome content then this story of high-schooler Anna Du might just do the trick...",
                  news_more: "https://www.designboom.com/technology/anna-du-teen-inventor-robot-microplastic-pollution-06-13-2022/"
                 },
+              {
+                news_img: "https://www.inspiremore.com/wp-content/uploads/2022/04/anna-du-microplastics-girl-featured-image.jpg",
+                news_source: "Inspire More",
+                news_date: "June 2nd, 2022",
+                news_head: "Teen Inventor Takes On Microplastic Pollution Armed With A Robot And Book",
+                news_content: "Anna Du grew up with a hunger for knowledge and a passion for making the earth a better place. Now, at just 16 years old, she’s already making incredible contributions to help reduce microplastic pollution",
+                news_more: "https://www.inspiremore.com/teen-inventor-takes-on-microplastic-pollution-armed-with-a-robot-and-book/"
+              },
                 {news_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg",
                  news_source: "Upworthy",
                  news_date: "April 5th, 2022",
