@@ -62,6 +62,14 @@ const NewsApp = {
         return {
             items: [
               {
+                news_img: "img/STS_056_23_A_960x622.png",
+                news_source: "Society for Science and Public",
+                news_date: "January 11, 2024",
+                news_head: "2024 Regeneron STS Scholars",
+                news_content: "Anna is one of the top 300 scholars in Regeneron STS 2024",
+                news_more: "https://www.societyforscience.org/regeneron-sts/2024-scholars/"
+              },
+              {
                 news_img: "https://cdn.hercampus.com/SH6M70M3/as/76j8vhh4gtnh9wwtrvjwp438/gen-z-women-stem",
                 news_source: "National STEM Day",
                 news_date: "November 9, 2023",
