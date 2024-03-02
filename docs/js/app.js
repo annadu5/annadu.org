@@ -62,6 +62,14 @@ const NewsApp = {
         return {
             items: [
               {
+                news_img: "img/AuthorTalks.jpg",
+                news_source: "State Library of Massachusetts",
+                news_date: "April 10th, 2024",
+                news_head: "Author Talk with Anna Du",
+                news_content: "State Library of Massachusetts will host a Author Talk with Anna Du, author of Microplastics and Me",
+                news_more: "https://www.mass.gov/event/author-talk-with-anna-du-2024-04-10t120000-0400-2024-04-10t130000-0400"
+              },
+              {
                 news_img: "img/STS_056_23_A_960x622.png",
                 news_source: "Society for Science and Public",
                 news_date: "January 11, 2024",
