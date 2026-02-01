@@ -33,18 +33,8 @@ const NavMenu = {
           nav_url: "#about"
         },
         {
-          nav_content: "Resume",
-          nav_url: "pdf/resume_20231029.pdf",
-          target_blank: true
-        },
-        {
-          nav_content: "YouTube",
-          nav_url: "https://www.youtube.com/@microplasticsgirl",
-          target_blank: true
-        },
-        {
-          nav_content: "Deep Plastics Initiative",
-          nav_url: "http://deepplastics.org",
+          nav_content: "Ideas Become Impact",
+          nav_url: "https://ideasbecomeimpact.org",
           target_blank: true
         },
         {
@@ -372,18 +362,6 @@ const VideosApp = {
                   video_url: "https://youtu.be/ZWN2U0xWsSQ",
                   video_img: "https://img.youtube.com/vi/ZWN2U0xWsSQ/0.jpg"
                 },
-                { video_title: "Upcycle a Trash CD player",
-                  video_url: "https://youtu.be/oWSweQbaqPQ",
-                  video_img: "https://img.youtube.com/vi/oWSweQbaqPQ/0.jpg"
-                },
-                { video_title: "All About Pyrolysis",
-                  video_url: "https://youtu.be/BUbi6DaYv9w",
-                  video_img: "https://img.youtube.com/vi/BUbi6DaYv9w/0.jpg"
-                },
-                { video_title: "World Oceans Week",
-                  video_url: "https://youtu.be/I__73QM7Cg8",
-                  video_img: "https://img.youtube.com/vi/I__73QM7Cg8/0.jpg"
-                },
                 { video_title: "Operation Awesome Season 1",
                   video_url: "https://youtu.be/hndmEWUNlzg-s",
                   video_img: "https://img.youtube.com/vi/hndmEWUNlzg/0.jpg"
@@ -395,18 +373,6 @@ const VideosApp = {
                 { video_title: "Operation Awesome Season 1",
                   video_url: "https://youtu.be/BHz7b6DxKtc-s",
                   video_img: "https://img.youtube.com/vi/BHz7b6DxKtc/0.jpg"
-                },
-                { video_title: "What are Ocean Microplastics?",
-                  video_url: "https://youtu.be/YuTuHKGV4-s",
-                  video_img: "https://img.youtube.com/vi/YuTuHKGV4-s/0.jpg"
-                },
-                { video_title: "Chicken Surprise!",
-                  video_url: "https://youtu.be/6IjhL0WSNpI",
-                  video_img: "https://img.youtube.com/vi/6IjhL0WSNpI/0.jpg"
-                },
-                { video_title: "Makin' Chicks With Anna!",
-                  video_url: "https://youtu.be/QWu8Oza5E_g",
-                  video_img: "https://img.youtube.com/vi/QWu8Oza5E_g/0.jpg"
                 },
                 { video_title: "Anna updates her book",
                   video_url: "https://images-na.ssl-images-amazon.com/images/I/E1yK2kBru1S.mp4",
