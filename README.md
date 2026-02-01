@@ -59,8 +59,9 @@ flowchart LR
 ```
 
 1. **Develop** - Make changes on `github-pages` branch
-2. **Test** - Push to `github-pages` triggers deployment to [testing site](https://annadu5.github.io/annadu.org/)
-3. **Deploy** - Merge to `master` triggers sync to AWS S3, updating [annadu.org](https://annadu.org)
+2. **Test locally** - Open `docs/index.html` in a browser to verify changes
+3. **Test remotely** - Push to `github-pages` triggers deployment to [testing site](https://annadu5.github.io/annadu.org/)
+4. **Deploy** - Merge to `master` triggers sync to AWS S3, updating [annadu.org](https://annadu.org)
 
 ## Local Development
 
