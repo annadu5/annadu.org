@@ -33,6 +33,10 @@ const NavMenu = {
           nav_url: "#about"
         },
         {
+          nav_content: "Portfolio",
+          nav_url: "https://portfolio.annadu.org/"
+        },
+        {
           nav_content: "Ideas Become Impact",
           nav_url: "https://ideasbecomeimpact.org",
           target_blank: true
