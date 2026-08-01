@@ -56,6 +56,14 @@ const NewsApp = {
         return {
             items: [
               {
+                news_img: "img/IEEE-OCEANS-2026.jpg",
+                news_source: "IEEE OCEANS 2026",
+                news_date: "May 28th, 2026",
+                news_head: "Anna Du Attended IEEE OCEANS 2026 in Sanya, China",
+                news_content: "Anna Du attended the IEEE OCEANS 2026 conference in Sanya, China, presenting her work on marine robotics and microplastic detection.",
+                news_more: "https://www.linkedin.com/posts/annacdu_ieeeoceans-oceans2026-marinerobotics-activity-7468673862109671424-uUdN"
+              },
+              {
                 news_img: "img/AuthorTalks.jpg",
                 news_source: "State Library of Massachusetts",
                 news_date: "April 10th, 2024",
