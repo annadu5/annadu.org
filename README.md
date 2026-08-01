@@ -2,6 +2,9 @@
 
 Anna Du's personal [website](https://annadu.org) showcasing environmental science work and microplastics research.
 
+- **Production**: https://annadu.org
+- **Testing**: https://annadu5.github.io/annadu.org/ (preview after pushing to `github-pages`)
+
 ## Project Structure
 
 ```
