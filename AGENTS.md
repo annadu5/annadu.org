@@ -1,43 +1,43 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
-- `docs/` holds the live site files served in production.
-  - `docs/index.html` contains the page template and Vue bindings.
-  - `docs/js/app.js` stores the content data (news, videos, competitions, research).
-  - `docs/js/main.js` includes jQuery UI interactions (menus, scrolling, carousels).
-  - `docs/css/style.css` is the custom theme styling.
-  - `docs/img/` and `docs/pdf/` store static assets.
-- `archive/` keeps the previous/archived website.
-- `.github/workflows/` contains GitHub Actions deployment workflows.
+## Project Structure
+- `docs/` is the live site root, served to production as-is (no build step).
+  - `docs/index.html` — page template with Vue 3 mounts.
+  - `docs/js/app.js` — all dynamic content (news, videos, competitions, research) as Vue data objects. This is where most edits go.
+  - `docs/js/main.js` — jQuery UI interactions (menus, scrolling, carousels).
+  - `docs/css/style.css` — custom theme.
+  - `docs/img/` and `docs/pdf/` — static assets.
+- `archive/` — previous/archived website, do not edit.
+- `.github/workflows/main.yml` — the only CI workflow; syncs `docs/` to S3 on `master` push.
+- `reCaptcha/`, `scripts/` — legacy/support directories, not part of the site.
 
-## Build, Test, and Development Commands
-- No build tooling or package manager is used.
+## Tech Stack
+- Vue.js 3.4.5 (content rendering via `Vue.createApp(...).mount(...)` in `app.js`), loaded from unpkg CDN in `docs/index.html` — there is no local Vue source.
+- Bootstrap (responsive layout), jQuery (UI interactions), Owl Carousel and Magnific Popup (carousels/lightbox in `main.js`).
+- Contact form in `docs/index.html` posts to Formspree (`https://formspree.io/all@annadu.org`) — no backend in this repo; do not change the endpoint.
+- AWS S3 static hosting behind Cloudflare DNS; GitHub Actions CI/CD.
+
+## Build, Test, Development
+- No package manager, no build tooling, no automated tests.
 - Local preview: open `docs/index.html` directly in a browser.
-- Deploy workflow (branch-based):
-  - Push to `github-pages` to publish the testing site.
-  - Merge to `master` to sync to the production S3 site.
+- Verify changes by checking layout, links, and interactive elements in the browser.
 
-## Coding Style & Naming Conventions
-- Keep HTML, CSS, and JS simple and readable; follow existing formatting.
-- Indentation appears to be 2 spaces in HTML/CSS/JS—match the surrounding file.
-- Content entries in `docs/js/app.js` use consistent object shapes; preserve key names and ordering.
-- Use descriptive, sentence-case labels for new content entries (e.g., “Author Talks with Anna Du”).
+## Content Conventions (`docs/js/app.js`)
+- Each content section (`NewsApp`, etc.) is a Vue app with an `items` array.
+- Entries are objects with fixed keys (e.g., `news_img`, `news_source`, `news_date`, `news_head`, `news_content`, `news_more`). Preserve key names and ordering.
+- News items are ordered newest-first; add new items at the top of the array.
+- Use sentence-case labels for new entries (e.g., "Author Talk with Anna Du").
+- Images referenced from `news_img` must exist under `docs/img/` (or be absolute URLs).
 
-## Testing Guidelines
-- There are no automated tests in this repository.
-- For changes, manually verify in a browser by opening `docs/index.html` and checking layout, links, and interactive elements.
+## Branches & Deployment
+- There is no `main` branch. The default/production branch is `master`.
+- Workflow (branch-based):
+  1. Develop on `github-pages` — push triggers GitHub Pages preview at https://annadu5.github.io/annadu.org/
+  2. Open PR `github-pages` → `master` to promote to production.
+  3. Merge to `master` triggers the S3 sync workflow, updating https://annadu.org
+- Commit messages: short, descriptive, sentence-case, tied to the content change.
 
-## Commit & Pull Request Guidelines
-- Recent commits use short, descriptive, sentence-case messages (often tied to content updates).
-- When opening a PR, include:
-  - A brief summary of the change.
-  - The target branch (`github-pages` for testing, `master` for production).
-  - Screenshots or a short note for any visual or content changes.
-
-## Deployment Notes
-- Testing site: deploys from `github-pages` to the GitHub Pages preview.
-- Production site: deploys from `master` to the S3 bucket backing `annadu.org`.
-
-## Agent-Specific Instructions
-- Update site content via `docs/js/app.js`; avoid introducing new tooling unless required.
-- Keep edits minimal and scoped to the requested content or visual changes.
+## Agent Notes
+- Most tasks = edit `docs/js/app.js`; avoid introducing new tooling or dependencies.
+- Keep edits minimal and scoped to the requested content/visual change.
+- Local preview only — there is no dev server, linter, or typecheck to run.
